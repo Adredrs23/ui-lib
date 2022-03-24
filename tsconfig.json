@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "target": "es6",
+      "module": "esnext",
+      "outDir": "dist",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "strict": true,
+      "noImplicitAny": false,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noImplicitReturns": true,
+      "resolveJsonModule": true,
+      "noFallthroughCasesInSwitch": true,
+      "forceConsistentCasingInFileNames": true,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "declaration": true,
+      "jsx": "react",
+      "jsxFragmentFactory": "React.Fragment",
+      "jsxFactory": "React.createElement"
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "lib"]
+  }
+  
